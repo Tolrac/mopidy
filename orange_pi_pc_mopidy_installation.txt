@@ -3,7 +3,7 @@
 sudo apt-get update && sudo apt-get upgrade
 
 #sudo apt install -y mopidy build-essential python3-dev python3-pip
-sudo apt install python3-pip
+
 sudo apt install libasound2 alsa-utils alsa-oss
 
 sudo mkdir -p /etc/apt/keyrings
@@ -15,6 +15,8 @@ sudo wget -q -O /etc/apt/sources.list.d/mopidy.list https://apt.mopidy.com/bulls
 sudo apt install mopidy
 
 apt search mopidy
+
+sudo apt install python3-pip
 
 sudo apt install mopidy-mpd
 sudo python3 -m pip install Mopidy-Iris
