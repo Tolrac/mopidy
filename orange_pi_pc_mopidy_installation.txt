@@ -12,5 +12,8 @@ sudo wget -q -O /etc/apt/sources.list.d/mopidy.list https://apt.mopidy.com/bulls
 
 #sudo dpkg-reconfigure mopidy
 sudo apt install mopidy
+
+apt search mopidy
+
 sudo apt install mopidy-mpd
 sudo python3 -m pip install Mopidy-Iris
