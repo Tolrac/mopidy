@@ -2,7 +2,8 @@
 
 sudo apt-get update && sudo apt-get upgrade
 
-sudo apt install -y mopidy build-essential python3-dev python3-pip
+#sudo apt install -y mopidy build-essential python3-dev python3-pip
+sudo apt install python3-pip
 sudo apt install libasound2 alsa-utils alsa-oss
 
 sudo mkdir -p /etc/apt/keyrings
