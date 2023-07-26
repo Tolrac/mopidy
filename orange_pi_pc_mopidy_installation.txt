@@ -24,12 +24,5 @@ sudo apt install mopidy-mpd
 sudo apt install mopidy-spotify
 sudo apt install mopidy-soundcloud
 
-sudo python3 -m pip install Mopidy-MusicBox-Webclient
-
-sudo python3 -m pip install Mopidy-YouTube
-sudo python3 -m pip install --upgrade youtube-dl
-sudo apt-get install gstreamer1.0-plugins-bad
-sudo python3 -m pip install --upgrade ytmusicapi
-
 sudo python3 -m pip install Mopidy-Mopify
 sudo python3 -m pip install Mopidy-Iris
